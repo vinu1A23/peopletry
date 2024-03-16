@@ -1,5 +1,11 @@
 {
     "rewrites": [
+<<<<<<< HEAD
       { "source": "/(.*)", "destination": "/api/app" }
     ]  
   }
+=======
+      { "source": "/(.*)", "destination": "/api/main" }
+    ] 
+  }
+>>>>>>> 11e85d5b47c867ba30ebf8c7dd73fba5f6015ed1
