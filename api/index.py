@@ -5,7 +5,7 @@ from typing import List
 from model import Task
 from schema import task_schema
 from session import create_get_session
-app = Flask(__name__, template_folder='./templates')
+app = Flask(__name__)
 
 @app.route('/')
 def index():
